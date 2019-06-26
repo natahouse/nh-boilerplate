@@ -25,6 +25,20 @@ Lint staged configurado para executar o linter antes de commits.
 
 Ferramenta para lintar mensagens de commit, já configurada para seguir a [convenção](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary).
 
+Tipos de commits:
+
+*build
+*ci
+*chore
+*docs
+*feat
+*fix
+*perf
+*refactor
+*revert
+*style
+*test
+
 ## Bitbucket Pipelines
 
 Arquivo de exemplo do bitbucket pipelines.
