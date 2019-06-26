@@ -1,0 +1,19 @@
+{
+  "name": "nh-boilerplate",
+  "version": "1.0.0",
+  "description": "Nh base boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natahouse/nh-boilerplate.git"
+  },
+  "author": "nata.house",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natahouse/nh-boilerplate/issues"
+  },
+  "homepage": "https://github.com/natahouse/nh-boilerplate#readme"
+}
