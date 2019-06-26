@@ -1,0 +1,40 @@
+# SAMPLE PIPELINES FILE
+
+image: node:carbon
+
+pipelines:
+  default:
+    - step:
+        name: Deploy pushed commit
+        caches:
+          - node
+        script:
+          - yarn
+          - MY_API=$API_URL_HMG yarn build
+          - yarn dev-release
+          - yarn sentry-release
+
+  branches:
+    master:
+      - step:
+          name: Build master and deploy to production
+          caches:
+            - node
+          script:
+            - yarn
+            - MY_API=$API_URL_PRD yarn build
+            - yarn release
+            - yarn sentry-release
+            - yarn dev-release
+
+    develop:
+      - step:
+          name: Build develop and deploy to staging
+          caches:
+            - node
+          script:
+            - yarn
+            - MY_API=$API_URL_HMG yarn build
+            - yarn release
+            - yarn sentry-release
+            - yarn dev-release
