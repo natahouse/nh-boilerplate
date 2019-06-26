@@ -13,4 +13,7 @@ Instalados módulos necessários, configurado para estender o estilo padrão nat
 
 OBS: É preciso fazer as alterações necessárias para mudar para o style guide Typescript/Javascript puro.
 
-## 
+## Prettier
+
+Prettier já configurado para formatar o código baseado nas regras definidas para o ESLint.
+
