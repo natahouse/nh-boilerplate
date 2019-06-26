@@ -34,5 +34,9 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0"
   }
 }

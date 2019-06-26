@@ -21,3 +21,6 @@ Prettier já configurado para formatar o código baseado nas regras definidas pa
 
 Lint staged configurado para executar o linter antes de commits.
 
+## Commit Lint
+
+Ferramenta para lintar mensagens de commit, já configurada para seguir a [convenção](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary).
