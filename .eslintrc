@@ -1,0 +1,3 @@
+{
+  "extends": ["@natahouse/eslint-config-react"]
+}
