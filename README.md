@@ -17,3 +17,7 @@ OBS: É preciso fazer as alterações necessárias para mudar para o style guide
 
 Prettier já configurado para formatar o código baseado nas regras definidas para o ESLint.
 
+## Lint staged / Husky
+
+Lint staged configurado para executar o linter antes de commits.
+
