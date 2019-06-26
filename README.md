@@ -28,3 +28,11 @@ Ferramenta para lintar mensagens de commit, já configurada para seguir a [conve
 ## Bitbucket Pipelines
 
 Arquivo de exemplo do bitbucket pipelines.
+
+## Editorconfig
+
+Arquivo exemplo .editorconfig, para configurar estilo de código independentemente da IDE.
+
+## Extensões VSCode
+
+Arquivo de extensões VSCode recomendadas para o projeto.
